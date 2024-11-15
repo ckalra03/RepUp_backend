@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "wk-log",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
